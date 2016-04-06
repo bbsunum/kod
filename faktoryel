@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{int i,n,sonuc=1;
+cout<<"faktoryeli alinacak sayiyi giriniz:";
+cin>>n;
+for(i=n;i>=1;i--)
+{
+  sonuc=sonuc*i;
+}
+cout<<n<<" Sayisinin Faktoryeli:"<<sonuc;
+return 0;
+}
